@@ -69,7 +69,7 @@ public abstract class AbstractHashTable {
 	// metodo che aggiorna la dimensione della tabella hash	(N)
 	protected void resize(int newCap) { 
 		int d = 0;
-		File file = new File("primes.txt"); 
+		File file = new File("primes.txt"); //generato da primes.c
 		int x = newCap*2;
 		try{
 			Scanner sc = new Scanner(file);
